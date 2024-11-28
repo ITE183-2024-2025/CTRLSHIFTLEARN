@@ -32,11 +32,11 @@
 - **Specialized Courses**: More courses on niche skills and topics.
 
 ## Team Members
-**Rimar Boter**
-**Alexis Mel Dingcong**
-**Angel Beatrice Jumawan**
-**Michellene Kyle Rivera**
-**Bill Sebua**
+- **Rimar Boter**
+- **Alexis Mel Dingcong**
+- **Angel Beatrice Jumawan**
+- **Michellene Kyle Rivera**
+- **Bill Sebua**
 
 ## Contribution
 We welcome contributions! Feel free to submit a pull request or open an issue for any bugs or feature suggestions.
