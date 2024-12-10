@@ -1,5 +1,7 @@
 # CtrlShiftLearn: Commanding Knowledge, Shifting Perspectives
 
+![CtrlShiftLearn](ctrlshiftlearn.jpg)
+
 ## Overview
 **CtrlShiftLearn** is an interactive tutoring platform that connects students with qualified tutors for private and public tutorial sessions. It offers a seamless and user-friendly experience, making it easy to find, schedule, and attend tutoring sessions on a wide range of subjects. The platform also highlights ongoing and upcoming events, helping users discover specialized courses and real-time sessions on skills like programming, web development, or graphic design.
 
