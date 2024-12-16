@@ -1,5 +1,11 @@
 # CtrlShiftLearn: Commanding Knowledge, Shifting Perspectives
 
+🔴 Add Project Code 
+<br>
+🔴 Add Project Video
+<br>
+🔴 Add Member Roles
+
 ![CtrlShiftLearn](ctrlshiftlearn.jpg)
 
 ## Overview
