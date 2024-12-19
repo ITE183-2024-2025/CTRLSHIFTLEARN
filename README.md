@@ -53,7 +53,7 @@ We welcome contributions! Feel free to submit a pull request or open an issue fo
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
-For questions or support, please email us at **support@ctrlshiftlearn.com**.
+For questions or support, please email us at **rimar.boter@g.msuiit.edu.ph**.
 
 ---
 *CtrlShiftLearn - Empowering Knowledge, One Session at a Time*
