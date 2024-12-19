@@ -1,0 +1,274 @@
+/* Tutor Private */
+.tutor-public {
+    position: relative;
+    background: #fffbab;
+    width: 100%;
+    height: 288px;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.tutor-public h1 {
+    position: relative;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 110px;
+    margin-bottom: 16px;
+    text-align: center;
+    color: #450992;
+    letter-spacing: -0.3px;
+}
+
+.search-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-container input {
+    width: 350px;
+    font-size: 14px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    transition: 0.3s ease-in-out;
+}
+
+.search-container input:focus { 
+    width: 450px;
+}
+
+.search-container i {
+    position: relative;
+    top: 6.9px;
+    right: 35px;
+    transform: translateY(-50%);
+    color: #450992;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.tutors {
+    position: relative;
+    width: 100%;
+    height: max-content;
+    background-color: #D9BAFF;
+    padding: 40px;
+    overflow: hidden;
+}
+
+.tutors h1 {
+    position: relative;
+    font-weight: 700;
+    font-size: 20px;
+    color: #450992;
+    float: left;
+    margin-left: 40px;
+    letter-spacing: -0.3px;
+    margin-bottom: 30px;
+}
+
+.search-containers {
+    position: relative;
+    display: flex;
+    align-items: center;
+    float: right;
+    gap: 5px;
+    margin-bottom: 30px;
+    margin-right: 40px;
+}
+
+.search-for input {
+    width: 200px;
+    font-size: 12px;
+    padding: 7px 15px;
+    border-radius: 5px;
+    border: none;
+    font-style: italic;
+}
+
+.search-for i {
+    position: relative;
+    top: 6px;
+    right: 30px;
+    transform: translateY(-50%);
+    color: #450992;
+    opacity: 0.7;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.tutor-cards {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    overflow: hidden;
+    max-width: 1000px;
+    justify-content: center;
+    margin: 60px auto 0 auto; /* Center horizontally */
+}
+
+.tutor-card {
+    position: relative;
+    width: 1000px;
+    height: max-content;
+    background-color: #fffde1;
+    margin: 10px;
+    border-radius: 20px;
+    border: 1px solid #460993;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 30px;   
+}
+
+.tutor-card-info h2 {
+    position: relative;
+    font-weight: 700;
+    font-size: 17px;
+    color: #450992;
+    text-align: left;
+}
+
+.tutor-card-info p {
+    position: relative;
+    font-weight: 350;
+    font-size: 12px;
+    color: #450992;
+    text-align: left;
+    line-height: 1.2;
+    margin-top: 10px;
+}
+
+.contains {
+    margin-top: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.container h3 {
+    position: relative;
+    font-weight: 350;
+    font-size: 12px;
+    color: #450992;
+    text-align: left;
+    line-height: 1.2;
+}
+
+.container i {
+    font-size: 15px;
+    color: #460993;
+}
+
+.bttn {
+    border-style: solid;
+    border-width: 1.3px;
+    border-color: #460993;
+    padding: 10px 40px;
+    border-radius: 10px;
+    background-color: #fffde1;
+    font-weight: 700;
+    color: #460993;
+    transition: background-color 0.2s ease-in-out;
+    margin: 0 5px;
+}
+
+
+.bttn:hover {
+    background-color: #460993;
+    color: #fff;
+}
+
+.btnloc {
+    float: right;
+    margin-top: 20px;
+}
+
+
+/* Pagination */
+.pagination,
+.button,
+.links,
+.link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagination {
+    column-gap: 12px;
+    margin-top: 23px;
+}
+
+.button {
+    border: none;
+}
+.button:disabled {
+    color: #9069c2;
+    pointer-events: none;
+}
+.button i {
+    pointer-events: none;
+}
+
+.button,
+.link {
+    height: 30px;
+    width: 30px;
+    font-size: 15px;
+    border-radius: 5px;
+    color: #450992;
+}
+
+.links {
+    column-gap: 12px;
+}
+
+.button:hover,
+.link:hover {
+    background-color: #450992;
+    color: #fff;
+    cursor: pointer;
+}
+
+.link.active {
+    background-color: #450992;
+    color: #fff;
+}
+
+@media (max-width: 540px) {
+    .btnloc {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        float: left;
+    }
+
+    .tutor-card-info h2 {
+        line-height: 20px;
+    }
+}
+
+@media (max-width: 880px) {
+    .tutors h1 {
+        text-align: center;
+        float: none;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .search-containers {
+        float: none;
+        flex-direction: column;
+        margin: 0 auto;
+        margin-bottom: -30px;
+    }
+}
