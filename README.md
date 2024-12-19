@@ -40,11 +40,11 @@
 - **Specialized Courses**: More courses on niche skills and topics.
 
 ## Team Members
-- **Rimar Boter**
-- **Alexis Mel Dingcong**
-- **Angel Beatrice Jumawan**
-- **Michellene Kyle Rivera**
-- **Bill Sebua**
+- **Rimar Boter - Front-End and Back-End Developer**
+- **Alexis Mel Dingcong - Front-End Developer**
+- **Angel Beatrice Jumawan - Front-End Developer**
+- **Michellene Kyle Rivera - Front-End Developer**
+- **Bill Sebua - Back-End Developer**
 
 ## Contribution
 We welcome contributions! Feel free to submit a pull request or open an issue for any bugs or feature suggestions.
