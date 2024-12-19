@@ -171,3 +171,59 @@
     background-color: #cb77fb;
     color: #fff;
 }
+
+@media (max-width: 1150px) {
+    .body-a img {
+        float: none;
+        position: relative;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+        display: block;
+    }
+
+    .body-a p {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        float: none;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+
+    .body-b h2 {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        font-size: 30px;
+    }
+
+    .body-c h2 {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .body-d h2 {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        font-size: 30px;
+    }
+
+    .resource-cards {
+        display: flex;
+        flex-direction: column;
+        max-width: none;
+        padding: 0px;
+        margin: 0px;
+        justify-content: center;
+        align-items: baseline;
+    }
+
+    .resource-card li {
+        line-height: 15px;
+    }
+}
