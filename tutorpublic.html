@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>CtrlShiftLearn | Public Session</title>
+    <link rel="icon" type="image/x-icon" href="/img/website.ico">
+    <link rel="stylesheet" href="css/globals.css" />
+    <link rel="stylesheet" href="css/styleguide.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/tutorpublic.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="js/anim.js" defer></script>
+    <script src="js/tutorprivate.js" defer></script>
+  </head>
+  <body>
+
+    <!-- Navigation Bar -->
+    <header id="top">
+      <nav class="navbar">
+        <a href="#top" class="navbar-logo-link">
+          <img class="navbar-logo" src="img/logo.svg" alt="CtrlShiftLearn WordMark" onclick="window.location.href='index.html'"/>
+          <img class="navbar-logo2" src="img/website.svg" alt="CtrlShiftLearn Logo" onclick="window.location.href='index.html'"/>
+        </a>
+        <div class="navbar-links">
+          <ul>
+            <li><a href="index.html" >Home</a></li>
+            <li><a href="find-a-tutor.html">Find a Tutor</a></li>
+            <li><a href="become-a-tutor.html">Become a Tutor</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="about.html">About Us</a></li>
+          </ul>
+        </div>
+        <div class="navbar-actions">
+          <button class="btn login-btn">Log In</button>
+          <a href="register.html"><button class="btn register-btn">Register</button></a>
+        </div>
+  
+        <div class="toggle_btn">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+  
+        <div class="dropdown">
+          <ul>
+            <li><a class="active" href="index.html" >Home</a></li>
+            <li><a href="find-a-tutor.html">Find a Tutor</a></li>
+            <li><a href="become-a-tutor.html">Become a Tutor</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><button class="btn login-btn">Log In</button></li>
+            <li><a href="register.html"><button class="btn register-btn">Register</button></a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="tutor-public">
+        <h1>Find public sessions</h1>
+        <div class="search-container">
+          <input type="text" placeholder="I want to learn...">
+          <i class="fa fa-search"></i>
+        </div>
+      </section>
+
+      <!-- Tutor Cards Section -->
+      <section class="tutors">
+        <h1>10 active public sessions</h1>
+        <div class="search-containers">
+          <div class="search-for">
+            <input type="text" placeholder="Sort by...">
+            <i class="fa-solid fa-angle-down"></i>
+          </div>
+          <div class="search-for">
+            <input type="text" placeholder="Search by name...">
+            <i class="fa fa-search"></i>
+          </div>
+        </div>
+        
+        <div class="tutor-cards">
+          <div class="tutor-card">
+            <div class="tutor-card-info">
+              <h2>ADOBE MINI WORKSHOP</h2>
+              <p>A hands-on session designed to introduce participants to essential Adobe tools like Photoshop, Illustrator, or Premiere Pro. Perfect for beginners, this workshop covers basic features, tips, and creative techniques to help bring your ideas to life.</p>
+            </div>
+
+            <div class="contains">
+              <div class="container">
+                <i class="fa-solid fa-location-dot"></i>
+                <h3>Multimedia Laboratory, College of Computer Studies</h3>
+              </div>
+  
+              <div class="container">
+                <i class="fa-solid fa-clock"></i>
+                <h3>2 PM - 4 PM</h3>
+              </div>
+            </div>
+
+            <div class="btnloc"> 
+              <button class="bttn">Save to my list</button>
+              <button class="bttn active">I am interested</button>
+            </div>
+          </div>
+
+          <div class="tutor-card">
+            <div class="tutor-card-info">
+              <h2>Group Study Discussion: Calculus & Discrete Structures</h2>
+              <p>An open group study session for exploring and understanding key topics in Calculus and Discrete Structures. Collaborative and beginner-friendly—anyone interested can join to learn, share ideas, and solve problems together.</p>
+            </div>
+
+            <div class="contains">
+              <div class="container">
+                <i class="fa-solid fa-location-dot"></i>
+                <h3>Room 211, College of Science and Mathematics</h3>
+              </div>
+  
+              <div class="container">
+                <i class="fa-solid fa-clock"></i>
+                <h3>1 PM - 6 PM</h3>
+              </div>
+            </div>
+
+            <div class="btnloc"> 
+              <button class="bttn">Save to my list</button>
+              <button class="bttn active">I am interested</button>
+            </div>
+          </div>
+        </div>
+
+        <!--- Pagination -->
+        <div class="pagination">
+          <button class="button" id="startBtn" disabled>
+            <i class="fa-solid fa-angles-left"></i>
+          </button>
+          <button class="button prevNext" id="prev" disabled>
+            <i class="fa-solid fa-angle-left"></i>
+          </button>
+
+          <div class="links">
+            <a href="#" class="link active">1</a>
+            <a href="#" class="link">2</a>
+            <a href="#" class="link">3</a>
+            <a href="#" class="link">4</a>
+            <a href="#" class="link">5</a>
+          </div>
+
+          <button class="button prevNext" id="next">
+            <i class="fa-solid fa-angle-right"></i>
+          </button>
+          <button class="button" id="endBtn">
+            <i class="fa-solid fa-angles-right"></i>
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <img src="/img/logo2.svg" alt="CTRLShiftLearn Logo" class="footer-logo">
+        <div class="footer-content">
+          <div class="footer-detail">
+            <h4>Quick Links</h4>
+            <ul>
+              <li>Home</li>
+              <li>Features</li>
+            </ul>
+          </div>
+          <div class="footer-detail">
+            <h4>Support</h4>
+            <ul>
+              <li>Help Center</li>
+              <li>Feedback Form</li>
+              <li>Support Contact</li>
+            </ul>
+          </div>
+          <div class="footer-detail">
+            <h4>Company</h4>
+            <ul>
+              <li>About Us</li>
+              <li>Contact Us</li>
+            </ul>
+          </div>
+        </div>
+        <p>© 2024 CTRLShiftLearn. All rights reserved.</p>
+        <div class="social-links">
+          <h4>Follow us:</h4>
+          <img src="/img/fb.svg" alt="Facebook" />
+          <img src="/img/ig.svg" alt="Instagram" />
+          <img src="/img/x.svg" alt="X" />
+        </div>
+    </footer>
+</body>
+</html>
