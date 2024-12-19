@@ -40,9 +40,9 @@
 - **Specialized Courses**: More courses on niche skills and topics.
 
 ## Team Members
-- **Rimar Boter - Front-End and Back-End Developer**
+- **Rimar Boter - Project Manager and Full-Stack Developer**
 - **Alexis Mel Dingcong - Front-End Developer**
-- **Angel Beatrice Jumawan - Front-End Developer**
+- **Angel Beatrice Jumawan - Front-End Developer and Documentation**
 - **Michellene Kyle Rivera - Front-End Developer**
 - **Bill Sebua - Back-End Developer**
 
