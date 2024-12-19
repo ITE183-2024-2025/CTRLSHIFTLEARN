@@ -1,0 +1,61 @@
+/* Tutor Section */
+.find-a-tutor {
+    position: relative;
+    background: #e6d2ff;
+    width: 100%;
+    height: 100%;
+    padding: 100px;
+}
+
+.find-a-tutor h1 {
+    position: relative;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #450992;
+}
+
+.find-a-tutor-content {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+
+.find-a-tutor-content p {
+    position: relative;
+    font-weight: 700;
+    font-size: 17px;
+    color: #450992;
+    text-align: center;
+    margin-top: 28px;
+}
+
+.find-a-tutor-content img {
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #460993;
+    margin: auto;
+    transition: transform 0.3s;
+}
+
+.find-a-tutor-content img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out, border-color 0.3s ease-in-out;
+    border-color: #f371ff;
+}
+
+@media (max-width: 768px) {
+    .find-a-tutor {
+        height: auto;
+    }
+    .find-a-tutor-content {
+        flex-direction: column;
+        align-items: center;
+    }
+}
